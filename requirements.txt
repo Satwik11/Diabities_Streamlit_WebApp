@@ -1,0 +1,4 @@
+pandas
+scikit-learn
+pillow==2.2.1
+streamlit
