@@ -10,10 +10,10 @@ st.write("""
 # Diabetes Detection
  Detect if someone has diabetes using machine learning and python !
 """)
-image = Image.open('D:/pythonProject/dia580.jpg')
+image = Image.open('D:/Diabities app/Diabities_Streamlit_WebApp/dia580.jpg')
 st.image(image, caption='ML',use_column_width=True)
 
-df = pd.read_csv("D:/pythonProject/diabetes.csv")
+df = pd.read_csv("D:/Diabities app/Diabities_Streamlit_WebApp/diabetes.csv")
 st.subheader('Data Information:')
 
 st.dataframe(df)
