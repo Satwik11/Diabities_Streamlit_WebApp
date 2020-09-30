@@ -6,3 +6,12 @@ Website Link : https://diab-app.herokuapp.com/
 
 The project predicts whether a patient is diabetic or not using Random Forest Classifier which builds multiple decision trees and merges them together to get a more accurate and stable result.
 
+## How to use the file
+execute diab_app.py using diabities.csv file after that host the website to heroku all required files are present on my github repo
+the files required for hosting is :
+1.Procfile,
+2.requirments.txt,
+3.setup.sh,
+4.diab_app.py
+
+
